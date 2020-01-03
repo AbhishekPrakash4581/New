@@ -1,0 +1,18 @@
+x=int(input('Enter the first number'))
+y=int(input('Enter the second number'))
+
+class A:
+    def add(self,x,y):
+        z=x+y
+        print(z)
+    def sub(self,x,y):
+        z=x-y
+        print(z)
+    def multi(self,x,y):
+        z=x*y
+        print(z)
+
+a=A()
+a.add(x,y)
+a.sub(x,y)
+a.multi(x,y)
