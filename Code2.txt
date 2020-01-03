@@ -1,0 +1,11 @@
+class A:
+    def add(self,i,j):
+        z=i+j
+        print(z)
+    def multi(self,i,j):
+        z=i*j
+        print(z)
+
+a=A()
+a.add(7,3)
+a.multi(4,7)
